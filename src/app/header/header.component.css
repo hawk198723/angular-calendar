@@ -29,4 +29,11 @@ a.logo {
   padding: 1em;
 }
 
+.nav-list {
+  display: flex;
+  align-items: center;
+}
 
+.nav-list li {
+  margin: 0 10px;
+}
