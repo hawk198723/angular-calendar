@@ -1,0 +1,117 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 20px;
+  height: calc(100vh - 120px);
+}
+
+.navigator {
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+.navigator h4 {
+  display: flex;
+  align-items: center;
+  padding: 5px 77px 5px 10px;
+  background-color: orange;
+  margin: 3px;
+  border-bottom: 2px solid orange;
+  margin-right: 5px;
+  border-radius: 5px 5px 5px 5px;
+  text-align: left;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.navigator ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navigator ul li {
+  background-color: #f2f2f2;
+  margin: 3px;
+  padding: 1px;
+}
+
+.navigator ul li a {
+  display: block;
+  padding: 8px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  text-align: left;
+}
+
+.navigator ul li a:hover {
+  background-color: #e0e0e0;
+}
+
+.main-panel {
+  width: 80%;
+  height: 100%;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+/* -------------- */
+
+/* app.component.css */
+
+header {
+  background-color: orange;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  background-color: orange;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar-item a:hover {
+  color: #000;
+}
